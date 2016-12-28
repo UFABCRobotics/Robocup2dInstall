@@ -8,7 +8,7 @@ if [ -f master ];then
 fi
 
 wget  https://codeload.github.com/drdeng/Robocup2dInstall/zip/master
-sudo apt-get install unzip
+sudo apt-get install -y unzip
 unzip  master
 cd  Robocup2dInstall-master
 chmod +x install.sh
